@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D289BF025154EF200F9369E /* RXiBeaconBLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D289BEF25154EF200F9369E /* RXiBeaconBLE.swift */; };
+		7D289BF225154F1000F9369E /* IBeaconDelegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D289BF125154F1000F9369E /* IBeaconDelegation.swift */; };
+		7D289BF425154F1C00F9369E /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D289BF325154F1C00F9369E /* BLE.swift */; };
+		7D289BF62515556D00F9369E /* PublicStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D289BF52515556D00F9369E /* PublicStruct.swift */; };
 		7DD5E42425153B90001EB6F7 /* RXiBeaconBLE.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD5E42225153B90001EB6F7 /* RXiBeaconBLE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB65499379B78AF74C1B5BE /* Pods_RXiBeaconBLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997C80994960CA894E32565 /* Pods_RXiBeaconBLE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54D2671DD3708EED8904E1F1 /* Pods-RXiBeaconBLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXiBeaconBLE.debug.xcconfig"; path = "Target Support Files/Pods-RXiBeaconBLE/Pods-RXiBeaconBLE.debug.xcconfig"; sourceTree = "<group>"; };
+		592FAE40D141647B2220B7E5 /* Pods-RXiBeaconBLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXiBeaconBLE.release.xcconfig"; path = "Target Support Files/Pods-RXiBeaconBLE/Pods-RXiBeaconBLE.release.xcconfig"; sourceTree = "<group>"; };
+		6997C80994960CA894E32565 /* Pods_RXiBeaconBLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXiBeaconBLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D289BEF25154EF200F9369E /* RXiBeaconBLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXiBeaconBLE.swift; sourceTree = "<group>"; };
+		7D289BF125154F1000F9369E /* IBeaconDelegation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBeaconDelegation.swift; sourceTree = "<group>"; };
+		7D289BF325154F1C00F9369E /* BLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
+		7D289BF52515556D00F9369E /* PublicStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicStruct.swift; sourceTree = "<group>"; };
 		7DD5E41F25153B90001EB6F7 /* RXiBeaconBLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RXiBeaconBLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD5E42225153B90001EB6F7 /* RXiBeaconBLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXiBeaconBLE.h; sourceTree = "<group>"; };
 		7DD5E42325153B90001EB6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -21,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB65499379B78AF74C1B5BE /* Pods_RXiBeaconBLE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +45,8 @@
 			children = (
 				7DD5E42125153B90001EB6F7 /* RXiBeaconBLE */,
 				7DD5E42025153B90001EB6F7 /* Products */,
+				8ACB1EBC3665C6D2E1C0BC80 /* Pods */,
+				AC195E47CF7AF6A5008663BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,8 +63,29 @@
 			children = (
 				7DD5E42225153B90001EB6F7 /* RXiBeaconBLE.h */,
 				7DD5E42325153B90001EB6F7 /* Info.plist */,
+				7D289BEF25154EF200F9369E /* RXiBeaconBLE.swift */,
+				7D289BF125154F1000F9369E /* IBeaconDelegation.swift */,
+				7D289BF325154F1C00F9369E /* BLE.swift */,
+				7D289BF52515556D00F9369E /* PublicStruct.swift */,
 			);
 			path = RXiBeaconBLE;
+			sourceTree = "<group>";
+		};
+		8ACB1EBC3665C6D2E1C0BC80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54D2671DD3708EED8904E1F1 /* Pods-RXiBeaconBLE.debug.xcconfig */,
+				592FAE40D141647B2220B7E5 /* Pods-RXiBeaconBLE.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC195E47CF7AF6A5008663BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6997C80994960CA894E32565 /* Pods_RXiBeaconBLE.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +106,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DD5E42725153B90001EB6F7 /* Build configuration list for PBXNativeTarget "RXiBeaconBLE" */;
 			buildPhases = (
+				9A9DD0EA246BB9587C7DD0E2 /* [CP] Check Pods Manifest.lock */,
 				7DD5E41A25153B90001EB6F7 /* Headers */,
 				7DD5E41B25153B90001EB6F7 /* Sources */,
 				7DD5E41C25153B90001EB6F7 /* Frameworks */,
@@ -95,6 +132,7 @@
 				TargetAttributes = {
 					7DD5E41E25153B90001EB6F7 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -126,11 +164,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A9DD0EA246BB9587C7DD0E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RXiBeaconBLE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DD5E41B25153B90001EB6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D289BF025154EF200F9369E /* RXiBeaconBLE.swift in Sources */,
+				7D289BF62515556D00F9369E /* PublicStruct.swift in Sources */,
+				7D289BF425154F1C00F9369E /* BLE.swift in Sources */,
+				7D289BF225154F1000F9369E /* IBeaconDelegation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +326,9 @@
 		};
 		7DD5E42825153B90001EB6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D2671DD3708EED8904E1F1 /* Pods-RXiBeaconBLE.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JNP78QVJKX;
@@ -268,6 +337,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RXiBeaconBLE/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,6 +346,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MH.RXiBeaconBLE;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,7 +355,9 @@
 		};
 		7DD5E42925153B90001EB6F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592FAE40D141647B2220B7E5 /* Pods-RXiBeaconBLE.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JNP78QVJKX;
@@ -292,6 +366,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RXiBeaconBLE/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MH.RXiBeaconBLE;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,31 @@
+PODS:
+  - RxBluetoothKit (6.0.0):
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - RxBluetoothKit (~> 6.0)
+  - RxCocoa (~> 5.1)
+  - RxSwift (~> 5.1)
+
+SPEC REPOS:
+  trunk:
+    - RxBluetoothKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  RxBluetoothKit: dad22912b15b74a40df8f60057f218d4e851746d
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: eef5b5a50a97a987a61717c780b2c47cae03dca0
+
+COCOAPODS: 1.8.4
